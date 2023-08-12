@@ -1,0 +1,31 @@
+.favoriteCard {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--color-white);
+  border-radius: 30px;
+}
+.favoriteImage {
+  width: 108px;
+  height: 108px;
+  object-fit: cover;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.name {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.actions {
+  display: flex;
+  margin-top: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.price {
+  font-size: 20px;
+  font-weight: 500;
+}
