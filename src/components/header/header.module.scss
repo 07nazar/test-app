@@ -1,0 +1,18 @@
+.header {
+  padding: 33px 91px 36px 33px;
+  background-color: var(--color-yellow);
+  border-bottom: 1px solid var(--color-black);
+  margin-bottom: 84px;
+  max-height: 100px;
+}
+
+.title {
+  font-family: var(--font-secondary);
+  vertical-align: bottom;
+  line-height: normal;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: right;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
