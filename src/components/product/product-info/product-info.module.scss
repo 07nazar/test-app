@@ -1,0 +1,34 @@
+.productInfo {
+  margin-top: 60px;
+  max-width: 1185px;
+  width: 100%;
+  display: flex;
+  gap: 136px;
+}
+.image {
+  display: flex;
+  flex-grow: 1;
+  width: 448px;
+  height: 448px;
+}
+
+.info {
+  max-width: 601px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 61px;
+}
+.name {
+  font-size: 64px;
+  font-weight: 400;
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+.price {
+  font-size: 64px;
+  font-weight: 500;
+}
